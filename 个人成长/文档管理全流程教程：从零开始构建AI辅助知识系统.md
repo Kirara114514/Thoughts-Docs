@@ -360,16 +360,16 @@ git push origin main
 先搜索日常记录（未归档的）：
 
 ```bash
-grep -i "关键词" "/root/.copaw/workspaces/DocManager/Tech-Docs/日常记录/"*.md
-grep -i "关键词" "/root/.copaw/workspaces/DocManager/Thoughts-Docs/日常记录/"*.md
-grep -i "关键词" "/root/.copaw/workspaces/DocManager/私密文档/"*/*.md
+grep -i "关键词" "/root/.copaw/workspaces/DocManager/DOCS/Tech-Docs/日常记录/"*.md
+grep -i "关键词" "/root/.copaw/workspaces/DocManager/DOCS/Thoughts-Docs/日常记录/"*.md
+grep -i "关键词" "/root/.copaw/workspaces/DocManager/DOCS/私密文档/"*/*.md
 ```
 
 如果日常记录中没有匹配 → 搜索历史记录（已归档的）：
 
 ```bash
-grep -i "关键词" "/root/.copaw/workspaces/DocManager/Tech-Docs/历史记录/"*.md
-grep -i "关键词" "/root/.copaw/workspaces/DocManager/Thoughts-Docs/历史记录/"*.md
+grep -i "关键词" "/root/.copaw/workspaces/DocManager/DOCS/Tech-Docs/历史记录/"*.md
+grep -i "关键词" "/root/.copaw/workspaces/DocManager/DOCS/Thoughts-Docs/历史记录/"*.md
 ```
 
 **步骤C：判断记录类型并初始化**
@@ -785,7 +785,7 @@ Git 推送
 
 ```bash
 # 从其他文档库复制模板
-copy "/root/.copaw/workspaces/DocManager/Tech-Docs/模板规范\日常记录模板.md" "/root/.copaw/workspaces/DocManager/Thoughts-Docs/模板规范\日常记录模板.md"
+copy "/root/.copaw/workspaces/DocManager/DOCS/Tech-Docs/模板规范\日常记录模板.md" "/root/.copaw/workspaces/DocManager/DOCS/Thoughts-Docs/模板规范\日常记录模板.md"
 ```
 
 ### 11.9 如何验证我的工作流程是正确的？
